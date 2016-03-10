@@ -1,0 +1,45 @@
+@media only screen and (max-width: 500px){
+    
+    .itm1, .itm2,  .itm3, .itm4, .itm5{ 
+        width: 40px;
+        height: 45px;
+    }
+    
+    header #menu-container #menu a span{
+    	font-size:2em;
+	}
+
+	.img{
+		margin-top:2em;
+	}
+	
+	section .row .img:hover{
+    	transform: none;
+	}
+
+	section .row .img{
+	    max-width:100%;
+	    transition: all 0.6s;
+	    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+	    transform: none;
+	    text-align:center;
+	}
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .itm1, .itm2,  .itm3, .itm4, .itm5{ 
+        width: 40px;
+        height: 45px;
+    }
+
+  section .row .img{
+	    max-width:100%;
+	    transition: all 0.6s;
+	    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+	    transform: none;
+	    text-align:center;
+	}
+}
